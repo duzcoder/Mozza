@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F2EC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mozza Menu"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#E62727"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+
+        <!-- Dish 1 -->
+        <LinearLayout
+            android:id="@+id/dish1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:clipToOutline="true"
+            android:layout_marginHorizontal="8dp"
+            android:backgroundTintMode="add">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pizza_margherita"
+                android:id="@+id/img1"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Pizza Margherita" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Pizza Margherita"
+                    android:textSize="18sp"
+                    android:id="@+id/txt1"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_height="30dp"
+                    android:layout_width="200dp"/>
+
+                <TextView
+                    android:text="Classic mozzarella, tomato, and basil."
+                    android:textSize="14sp"
+                    android:id="@+id/p1"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="10 TND"
+                    android:textColor="#59AC77"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Dish 2 -->
+        <LinearLayout
+            android:id="@+id/dish2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:clipToOutline="true"
+            android:layout_marginHorizontal="8dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/img2"
+                android:src="@drawable/pasta_carbonara"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Pasta Carbonara" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Pasta Carbonara"
+                    android:id="@+id/txt2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_height="30dp"
+                    android:layout_width="200dp"
+                    />
+
+                <TextView
+                    android:text="Creamy sauce with pancetta and parmesan."
+                    android:textSize="14sp"
+                    android:id="@+id/p2"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11.50 TND"
+                    android:textColor="#59AC77"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Dish 3 -->
+        <LinearLayout
+            android:id="@+id/dish3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:clipToOutline="true"
+            android:layout_marginHorizontal="8dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/img3"
+                android:src="@drawable/tiramisu"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Tiramisu" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Tiramisu"
+                    android:id="@+id/txt3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_height="30dp"
+                    android:layout_width="200dp"/>
+
+                <TextView
+                    android:text="Coffee-flavored dessert with mascarpone."
+                    android:textSize="14sp"
+                    android:id="@+id/p3"
+                    android:textColor="#666666"
+                    android:layout_marginTop="4dp"
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6.50 TND"
+                    android:textColor="#59AC77"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
