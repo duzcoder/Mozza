@@ -32,5 +32,5 @@ Built using **Android Studio**, **XML layouts**, and **Java**, this project demo
 
 ### Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Mozza.git
+git clone https://github.com/duzcoder/Mozza.git
 cd Mozza
