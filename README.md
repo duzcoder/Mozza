@@ -30,7 +30,7 @@ Built using **Android Studio**, **XML layouts**, and **Java**, this project demo
 
 ## 🚀 How to Run the App
 
-### 1️⃣ Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/<your-username>/Mozza.git
 cd Mozza
