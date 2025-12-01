@@ -28,38 +28,6 @@ Built using **Android Studio**, **XML layouts**, and **Java**, this project demo
 
 ---
 
-## 🗂️ Project Structure
-
-Mozza/
-├── app/
-│ ├── build.gradle.kts
-│ └── src/
-│ ├── main/
-│ │ ├── AndroidManifest.xml
-│ │ ├── java/com/example/mozza/
-│ │ │ ├── MainActivity.java
-│ │ │ ├── LoginActivity.java
-│ │ │ ├── SplashActivity.java
-│ │ │ ├── MargheritaActivity.java
-│ │ │ ├── CarbonaraActivity.java
-│ │ │ ├── TiramisuActivity.java
-│ │ │ └── ui/theme/
-│ │ │ ├── Color.kt
-│ │ │ ├── Theme.kt
-│ │ │ └── Type.kt
-│ │ ├── res/
-│ │ │ ├── layout/ (all XML screen layouts)
-│ │ │ ├── drawable/ (menu images, logos)
-│ │ │ ├── mipmap-*dpi/ (adaptive icons)
-│ │ │ └── values/ (colors, themes, strings)
-│ └── test/ + androidTest/
-├── build.gradle.kts
-├── settings.gradle.kts
-└── gradlew / gradlew.bat
-
-
----
-
 ## 🚀 How to Run the App
 
 ### 1️⃣ Clone the repository
